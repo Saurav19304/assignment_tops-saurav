@@ -1,7 +1,0 @@
-SELECT * FROM hr.employee;
-select EMP_ID, EMP_NAME, EMP_AGE, EMP_HIREDATE, EMP_SALARY ,
-concat_ws(",",EMP_ID,EMP_NAME,EMP_AGE, EMP_HIREDATE, EMP_SALARY) 
-as OUTPUT FROM EMPLOYEE ;
-
-select EMP_NAME , EMP_HIREDATE from employee
-order by EMP_HIREDATE asc ;
